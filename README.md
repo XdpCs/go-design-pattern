@@ -9,5 +9,6 @@
 
 ## SOLID 原则
 
-- [单一职责原则](./SOLID/01.Single-Responsibility-Principle/README.md) [Go](https://github.com/XdpCs/go-design-pattern/blob/master/SOLID/01.Single-Responsibility-Principle/go)
+- [单一职责原则](./SOLID/01.Single-Responsibility-Principle/README.md) [Go](https://github.com/XdpCs/go-design-pattern/blob/master/SOLID/01.Single-Responsibility-Principle/go/main.go)
+- [开闭原则](./SOLID/02.Pen-Closed-Principle/README.md) [Go](https://github.com/XdpCs/go-design-pattern/blob/master/SOLID/02.Pen-Closed-Principle/go/main.go)
 

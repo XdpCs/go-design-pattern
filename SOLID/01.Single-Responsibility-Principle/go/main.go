@@ -29,6 +29,16 @@ func (m *ModifyEmployee) getName() string {
 
 type TimeSheetReport struct{}
 
-func (t *TimeSheetReport) print(employee *Employee) {
+func (t *TimeSheetReport) print(employee *ModifyEmployee) {
 	fmt.Println("TimeSheet Report: Name: ", employee.getName())
+}
+
+func main() {
+	fmt.Println("Before Single Responsibility Principle")
+	e := Employee{name: "XdpCs"}
+	e.printTimeSheetReport()
+	fmt.Println("After Single Responsibility Principle")
+	employee := ModifyEmployee{name: "ModifyXdpCs"}
+	timeSheetReport := TimeSheetReport{}
+	timeSheetReport.print(&employee)
 }
