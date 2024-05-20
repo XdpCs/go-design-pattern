@@ -7,6 +7,8 @@ import "fmt"
 // @Create       XdpCs 2024-05-13 15:03
 // @Update       XdpCs 2024-05-13 15:03
 
+// Before Open Closed Principle
+
 type Order struct {
 	totalCost float32
 	payType   string
@@ -37,6 +39,8 @@ func (o *Order) payByPaypal(amount float32) {
 	// Pay by paypal
 	fmt.Println("Pay by paypal: ", amount)
 }
+
+// After Open Closed Principle
 
 type ModifyOrder struct {
 	totalCost float32

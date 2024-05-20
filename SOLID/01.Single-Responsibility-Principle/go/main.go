@@ -7,6 +7,8 @@ import "fmt"
 // @Create       XdpCs 2024-05-13 15:03
 // @Update       XdpCs 2024-05-13 15:03
 
+// Before Single Responsibility Principle
+
 type Employee struct {
 	name string
 }
@@ -18,6 +20,8 @@ func (e *Employee) getName() string {
 func (e *Employee) printTimeSheetReport() {
 	fmt.Println("TimeSheet Report: Name: ", e.name)
 }
+
+// After Single Responsibility Principle
 
 type ModifyEmployee struct {
 	name string

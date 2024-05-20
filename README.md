@@ -11,4 +11,4 @@
 
 - [单一职责原则](./SOLID/01.Single-Responsibility-Principle/README.md) [Go](https://github.com/XdpCs/go-design-pattern/blob/master/SOLID/01.Single-Responsibility-Principle/go/main.go)
 - [开闭原则](./SOLID/02.Pen-Closed-Principle/README.md) [Go](https://github.com/XdpCs/go-design-pattern/blob/master/SOLID/02.Pen-Closed-Principle/go/main.go)
-
+- [里氏替换原则](./SOLID/03.Liskov-Substitution-Principle/README.md) [Go](https://github.com/XdpCs/go-design-pattern/blob/master/SOLID/03.Liskov-Substitution-Principle/go/main.go)
